@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+@font-face {
+    src: url("/public/JejuMyeongjo-Regular.ttf") format("truetype");
+    font-family: 'Jeju';
+}
+
+:root {
+    --color-green: #55694B;
+    --color-greeni: #67825B;
+    --color-black: #000000;
+}
+
+body {
+    margin: 0;
+    font-family: "Jaldi", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color-green);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-green);
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.p-carousel-indicator-list {
+    display: none !important;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+@layer base {
+    .p-button {
+        margin-top: 5px!important;
+        padding: 6px 12px!important;
+        background: transparent!important;
+        border-color: var(--color-greeni)!important;
+        border-radius: 12px!important;
+        color: var(--color-green)!important;
+        margin-bottom: 15px!important;
+    }
+
+    .p-button:active, .p-button:hover {
+        background-color: var(--color-greeni) !important;
+        color: white!important;
+    }
+}
+
+/*.p-button {*/
+/*    margin-top: 5px;*/
+/*    padding: 6px 12px;*/
+/*    background: transparent;*/
+/*    border-color: var(--color-greeni);*/
+/*    border-radius: 12px;*/
+/*    color: var(--color-green);*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.p-button:active, .p-button:hover {*/
+/*    background-color: var(--color-greeni) !important;*/
+
+/*}*/
